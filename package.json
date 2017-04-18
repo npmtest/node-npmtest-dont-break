@@ -1,1 +1,40 @@
-{     "devDependencies": {         "dont-break": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-dont-break",     "homepage": "https://github.com/npmtest/node-npmtest-dont-break",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-dont-break.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [dont-break (v1.3.0)](https://github.com/bahmutov/dont-break)  [![npm package](https://img.shields.io/npm/v/npmtest-dont-break.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dont-break) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dont-break.svg)](https://travis-ci.org/npmtest/node-npmtest-dont-break)",
+    "devDependencies": {
+        "dont-break": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-dont-break",
+    "keywords": [
+        "coverage",
+        "test",
+        "dont-break"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_dont_break.js",
+    "name": "npmtest-dont-break",
+    "nameAlias": "npmtest_dont_break",
+    "nameOriginal": "npmtest-dont-break",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-dont-break.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}

@@ -1,6 +1,6 @@
 # npmtest-dont-break
 
-#### test coverage for  [dont-break (v1.3.0)](https://github.com/bahmutov/dont-break)  [![npm package](https://img.shields.io/npm/v/npmtest-dont-break.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dont-break) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dont-break.svg)](https://travis-ci.org/npmtest/node-npmtest-dont-break)
+#### basic test coverage for  [dont-break (v1.3.0)](https://github.com/bahmutov/dont-break)  [![npm package](https://img.shields.io/npm/v/npmtest-dont-break.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dont-break) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dont-break.svg)](https://travis-ci.org/npmtest/node-npmtest-dont-break)
 
 #### Checks if the current version of your package would break dependent projects
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-dont-break/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-dont-break/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dont-break/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dont-break/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dont-break/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dont-break/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-dont-break/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-dont-break/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dont-break/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dont-break/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-dont-break/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dont-break/build/coverage.html/index.html)
 
